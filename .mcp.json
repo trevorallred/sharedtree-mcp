@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sharedtree": {
+      "type": "http",
+      "url": "https://mcp.sharedtree.com/mcp"
+    }
+  }
+}

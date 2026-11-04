@@ -25,6 +25,16 @@ This repository describes the hosted MCP server. The server itself is operated b
 
 Full reference: [sharedtree.com/docs/api](https://sharedtree.com/docs/api) · OpenAPI: [sharedtree.com/openapi.json](https://sharedtree.com/openapi.json)
 
+## Plugin and skills
+
+This repository is also an installable plugin: `.mcp.json` connects the server, and `skills/` adds three workflows that call SharedTree's tools:
+
+- **organize-my-tree**: organize saved notes into articles
+- **import-my-memories**: copy what an assistant already knows about you into SharedTree
+- **keep-a-local-copy**: download your Tree as Markdown with `@sharedtree/cli` and grep it
+
+The skills only orchestrate; the server owns the rules and instructions.
+
 ## Set up
 
 Add `https://mcp.sharedtree.com/mcp` as a custom connector in your assistant, then sign in to SharedTree and approve access. Step-by-step guides for Claude, ChatGPT, Grok, Cursor, Claude Code and other clients: [sharedtree.com/connect](https://sharedtree.com/connect).

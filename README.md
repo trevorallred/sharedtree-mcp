@@ -35,6 +35,12 @@ This repository is also an installable plugin: `.mcp.json` connects the server, 
 
 The skills only orchestrate; the server owns the rules and instructions.
 
+Install in Claude Code:
+
+```
+/plugin install sharedtree --marketplace trevorallred/sharedtree-mcp
+```
+
 ## Set up
 
 Add `https://mcp.sharedtree.com/mcp` as a custom connector in your assistant, then sign in to SharedTree and approve access. Step-by-step guides for Claude, ChatGPT, Grok, Cursor, Claude Code and other clients: [sharedtree.com/connect](https://sharedtree.com/connect).

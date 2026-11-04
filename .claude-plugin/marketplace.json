@@ -1,11 +1,15 @@
 {
   "name": "sharedtree",
-  "owner": { "name": "Trevor Allred", "url": "https://sharedtree.com" },
+  "owner": {
+    "name": "Trevor Allred",
+    "url": "https://sharedtree.com"
+  },
   "plugins": [
     {
       "name": "sharedtree",
       "source": "./",
       "description": "One memory for all your AI assistants: the SharedTree MCP server plus skills to organize, import and keep a local copy of your Tree."
     }
-  ]
+  ],
+  "description": "SharedTree: one memory for all your AI assistants."
 }

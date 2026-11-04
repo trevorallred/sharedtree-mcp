@@ -2,9 +2,18 @@
   "name": "sharedtree",
   "version": "0.1.0",
   "description": "One memory for all your AI assistants: connects the SharedTree MCP server and adds skills to organize, import and keep a local copy of your Tree.",
-  "author": { "name": "Trevor Allred", "url": "https://sharedtree.com" },
+  "author": {
+    "name": "Trevor Allred",
+    "url": "https://sharedtree.com"
+  },
   "homepage": "https://sharedtree.com",
   "repository": "https://github.com/trevorallred/sharedtree-mcp",
   "license": "MIT",
-  "keywords": ["memory", "mcp", "knowledge", "personal"]
+  "keywords": [
+    "memory",
+    "mcp",
+    "knowledge",
+    "personal"
+  ],
+  "privacyPolicyUrl": "https://sharedtree.com/privacy"
 }
